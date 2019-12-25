@@ -21,7 +21,7 @@ class About extends Component {
             </Col>
           </Row>
           <hr />
-          <h5 style={{color:'rgb(74, 133, 206)'}}>Completed Courses: (green: math, blue: cs, red: other)</h5>
+          <h5 style={{color:'rgb(74, 133, 206)'}}>Completed Courses: (blue: cs, green: math, red: other)</h5>
           <div>
             <Tag color="#2db7f5"><h6>Foundations of Programming</h6></Tag> 
             <Tag color="#2db7f5"><h6>Intro to Computer Science</h6></Tag> 
@@ -32,6 +32,7 @@ class About extends Component {
             <Tag color="#87d068"><h6>Discrete Structures</h6></Tag>
             <Tag color="#87d068"><h6>Probability</h6></Tag>
             <Tag color="#f50"><h6>Mechanics and Waves</h6></Tag>
+            <Tag color="#f50"><h6>Electromagnetism and Optics</h6></Tag>
             <Tag color="#f50"><h6>General Chemistry</h6></Tag>
             <Tag color="#f50"><h6>Beginner French</h6></Tag>
           </div>

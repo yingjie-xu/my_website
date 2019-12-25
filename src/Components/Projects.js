@@ -37,7 +37,7 @@ class Projects extends Component {
                   Written in Java. Uses Best-First Search and the A* algorithm to find the fastest method for solving puzzles of different sizes.
                   An example of the game is shown in the picture above (i.e. 15-puzzle,<a href='https://en.wikipedia.org/wiki/15_puzzle'> learn more about this game</a>). 
                 </p>
-                <Button variant="outline-primary">View source code</Button>
+                {/* <Button variant="outline-primary">View source code</Button> */}
               </Card.Body>
             </Card>
           </Col>

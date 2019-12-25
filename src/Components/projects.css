@@ -4,9 +4,13 @@
   padding-left: 5%;
   padding-right: 5%;
   background-image: linear-gradient(rgba(253, 253, 253, 0),rgba(255, 255, 255, 0)), url('../Assets/project.jpg');
-  background-size: cover;
-  background-position: center center;
+  /* Full height */
+  height: 100%; 
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
   background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .projects p {
@@ -16,6 +20,6 @@
 .projects h1 {
   font-family: "Comic Sans MS", sans-serif;
   color: rgb(132, 195, 219);
-  background-color: rgba(30, 32, 34, 0.5);
+  background-color: rgba(30, 32, 34, 0.7);
   padding: 15px;
 }
