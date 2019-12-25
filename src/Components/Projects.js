@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Row, Col, Card, Button } from "react-bootstrap";
-import './projects.css';  
+import './projects.css'; 
+import "../Assets/final_date.png";
 
 class Projects extends Component {
   render() {
@@ -10,7 +11,7 @@ class Projects extends Component {
         <Row>
           <Col lg={6}>
             <Card style={{padding:'10px'}}>
-              <Card.Img variant="top" src={require("../Assets/final_date.png")} />
+              <Card.Img variant="top" src={"../Assets/final_date.png"} />
               <Card.Body>
                 <h5>Find final exam date (McGill)</h5>
                 <hr />
