@@ -1,0 +1,19 @@
+.slogan {
+    padding: 10%;
+    background-image: url("../Assets/sun.JPEG");
+    /* Full height */
+    height: 100%; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.slogan h2 {
+    font-family: cursive;
+    padding: 20px;
+    color: black;
+    background:rgba(255,255,255,0.7);
+}

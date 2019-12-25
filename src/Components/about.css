@@ -1,0 +1,34 @@
+.about {
+  padding: 40px;
+  padding-top: 80px;
+  padding-bottom: 80px;
+  text-align: left;
+  background-color: white;
+}
+
+.about .image {
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.about h1 {
+  text-align: center;
+  font-family: cursive, Arial, sans-serif;
+  color: rgb(74, 133, 206);
+}
+
+.about p {
+  font-size: large;
+  font-family: "Comic Sans MS", sans-serif;
+}
+
+.about h6 {
+  color: white;
+  font-size: small;
+  text-align: center;
+}

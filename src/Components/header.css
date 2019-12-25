@@ -1,23 +1,19 @@
 .header {
-    /* Sizing */
-    width: 100vw;
-    height: 100vh;
-    /* Flexbox stuff */
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    /* Text styles */
-    text-align: center;
-    /* Background styles */
-    background-image: linear-gradient(rgba(75, 142, 175, 0.8),rgba(0, 0, 0, 0.699)), url('../Assets/xyj.JPEG');
-    background-size: cover;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-image: linear-gradient(rgba(75, 142, 175, 0.8),rgba(0, 0, 0, 0.699)), url('../Assets/xyj.JPEG');
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
 }
 
-.header h1 {
-    font-family: 'Comic Sans MS';
-    font-size: 50px;
-    color: white;
+.header p {
+  font-family: 'Comic Sans MS';
+  font-size: 50px;
+  color: white;
 }
