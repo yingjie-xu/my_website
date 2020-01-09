@@ -3,7 +3,7 @@ import { Row, Col, Container } from 'react-bootstrap'
 import './about.css'
 import { Tag } from 'antd'
 
-const myself = "Hi everyone! Thank you for visiting my website! My name is Yingjie Xu. I am currently a second year BSC Software Engineering student at McGill University. As a software engineer, I enjoy the happiness that programming and problem solving bring to me. In my spare time, I love watching TV shows and movies. Also, I like playing video games with my friends. I enjoy playing badminton and exercising."
+const myself = "Hi everyone! Thank you for visiting my website! My name is Yingjie Xu. I am currently a second year BSc Software Engineering student at McGill University. As a software engineer, I enjoy the happiness that programming and problem solving bring to me. In my spare time, I love watching TV shows and movies. Also, I like playing video games with my friends. I enjoy playing badminton and exercising."
 
 class About extends Component {
   render() {

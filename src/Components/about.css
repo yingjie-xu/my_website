@@ -1,5 +1,5 @@
 .about {
-  padding: 40px;
+  padding: 0px;
   padding-top: 80px;
   padding-bottom: 80px;
   text-align: left;
@@ -7,8 +7,10 @@
 }
 
 .about .image {
-  width: 300px;
-  height: 300px;
+  width: 100%;
+  height: 100%;
+  max-width: 300px;
+  max-height: 300px;
   border-radius: 50%;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.6);
   display: block;
@@ -18,13 +20,13 @@
 
 .about h1 {
   text-align: center;
-  font-family: cursive, Arial, sans-serif;
+  font-family: 'Fredoka One', cursive;
   color: rgb(74, 133, 206);
 }
 
 .about p {
   font-size: large;
-  font-family: "Comic Sans MS", sans-serif;
+  font-family: 'Sniglet', cursive;
 }
 
 .about h6 {
