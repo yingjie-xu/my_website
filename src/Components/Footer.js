@@ -1,28 +1,32 @@
 import React, { Component } from 'react';
-import { Icon } from 'antd'
+import { GithubOutlined, MailFilled, FacebookFilled, LinkedinFilled } from '@ant-design/icons';
 import './footer.css';
 
 class Footer extends Component {
   render() {
+    let icon = {
+      fontSize: '25px',
+      color: 'white'
+    }
     return (
       <div className='footer'>
         <p>
           &copy; Yingjie Xu, 2019-2020
-            <br />
+          <br />
           <a href='mailto:yingjie.xu.code@gmail.com' target='_blank' rel="noopener noreferrer">
-            <Icon type="mail" theme="filled" style={{ fontSize: '20px', color: 'white' }} />
+            <MailFilled style={icon}/>
           </a>
-          &nbsp;&nbsp;
+          &nbsp;
           <a href='https://www.facebook.com/yingjiexu619' target='_blank' rel="noopener noreferrer">
-            <Icon type="facebook" theme="filled" style={{ fontSize: '20px', color: 'white' }} />
+            <FacebookFilled style={icon}/>
           </a>
-          &nbsp;&nbsp;
+          &nbsp;
           <a href='https://www.linkedin.com/in/yingjie-xu-0619/' target='_blank' rel="noopener noreferrer">
-            <Icon type="linkedin" theme="filled" style={{ fontSize: '20px', color: 'white' }} />
+            <LinkedinFilled style={icon}/>
           </a>
-          &nbsp;&nbsp;
+          &nbsp;
           <a href='https://github.com/yingjie-xu' target='_blank' rel="noopener noreferrer">
-            <Icon type="github" style={{ fontSize: '20px', color: 'white' }} />
+            <GithubOutlined style={icon}/>
           </a>
         </p>
       </div>

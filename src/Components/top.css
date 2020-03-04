@@ -1,0 +1,12 @@
+.top {
+  background-color: #7997BB;
+  padding: 0px;
+  padding-top: 30px;
+  padding-left: 5%;
+  padding-right: 5%;
+  text-align: left;
+}
+
+.top p {
+  text-align: right;
+}
